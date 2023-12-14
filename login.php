@@ -8,17 +8,14 @@
 </head>
 <body>
     <h1>Register</h1>
-    <form action="Register.php" method="post">
+    <form action="Login.php" method="post">
         <labe for="username">Username</labe>
         <input type="text" name="username" id="username" placeholder="Enter Username">
-        <label for="email">Email</label>
-        <input type="email" name="email" placeholder="Enter email">
+       
         <label for="password">Password</label>
         <input type="password" id="password" name="password" placeholder="Enter Password">
-        <label for="cpassword">Confirm Password</label>
-        <input type="password" name="cpassword" id="cpassword" placeholder="Confirm password">
-        <button type="submit" name="submit" >Register</button>
-        <a href="login.php">Login</a>
+        
+        <button type="submit" name="submit" >Login</button>
     </form>
 </body>
 </html>
