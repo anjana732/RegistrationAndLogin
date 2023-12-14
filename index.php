@@ -17,6 +17,7 @@
         <input type="password" id="password" placeholder="Enter Password">
         <label for="cpassword">Confirm Password</label>
         <input type="password" name="cpassword" id="cpassword" placeholder="Confirm password">
+        <button type="submit">Register</button>
     </form>
 </body>
 </html>
