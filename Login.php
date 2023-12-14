@@ -20,7 +20,8 @@
             $result = mysqli_query($conn, $sql);
 
             if($result){
-                echo "Login successful";
+               // echo "Login successful";
+               header('Location:welcome.php');
             }
             else{
                 die("Invalid credential".mysqli_error);
